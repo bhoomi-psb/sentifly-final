@@ -22,7 +22,7 @@ def set_background(image_path):
         st.warning(f"⚠️ Background image not found at: {image_path}")
 
 # ✅ Set background with corrected image path
-set_background(r"SentiFly-main/Images/bg8.jpeg")
+set_background(r"Images/bg8.jpeg")
 
 
 # Custom CSS for Background, Transparent Containers, and Styling
