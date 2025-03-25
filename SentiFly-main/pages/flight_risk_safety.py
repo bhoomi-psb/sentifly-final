@@ -71,11 +71,11 @@ col1, col2 = st.columns(2)
 
 with col1:
     if st.button("🛡 Safety Ratings", use_container_width=True):
-        st.switch_page("safety_ratings.py")
+        st.switch_page("safety_ratings")
 
 with col2:
     if st.button(" Risk Prediction", use_container_width=True):
-        st.switch_page("risk_prediction.py")
+        st.switch_page("risk_prediction")
 
 # Overview Stats
 st.markdown("### Overview")
